@@ -1,26 +1,21 @@
-/* All styles for your Card Components live here */
-
 .CardContainer {
 	width: 100%;
-	display: flex;
-	flex-direction: row;
-}
-
-.SpaceContainer {
-	width: 9%;
-}
-.RightCardContainer {
-	width: 91%;
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
 }
+/* ZACINAM*/
 .cardImageContainer {
+	box-sizing: border-box;
 	width: 100%;
+	padding: 0 15px 0 60px;
 }
 
 .imgCardBanner {
-	width: 98%;
+	width: 100%;
+	box-sizing: border-box;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .CardContentContainer {

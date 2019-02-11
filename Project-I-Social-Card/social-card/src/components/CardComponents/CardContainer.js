@@ -6,11 +6,8 @@ import CardContent from "./CardContent";
 export default function CardContainer() {
 	return (
 		<div className="CardContainer">
-			<div className="SpaceContainer" />
-			<div div className="RightCardContainer">
-				<CardBanner />
-				<CardContent />
-			</div>
+			<CardBanner />
+			<CardContent />
 		</div>
 	);
 }
