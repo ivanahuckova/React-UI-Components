@@ -7,7 +7,7 @@ export default function CardContent() {
 			<h3>Get Started with React</h3>
 
 			<div className="CardContentContent">
-				React makes it painless to create interactive UIs. Design simple views for each state in your application
+				React makes it painless to create interactive UIs. Design simple views for each state in your application.
 			</div>
 			<div className="CardContentLink">reactjs.org</div>
 		</div>

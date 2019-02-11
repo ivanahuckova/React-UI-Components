@@ -4,15 +4,15 @@
 	flex-direction: column;
 	box-sizing: border-box;
 }
-/* ZACINAM*/
+
 .cardImageContainer {
 	box-sizing: border-box;
 	width: 100%;
-	padding: 0 15px 0 60px;
+	margin: 0 15px -5px 60px;
 }
 
 .imgCardBanner {
-	width: 100%;
+	width: 525px;
 	box-sizing: border-box;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -21,24 +21,28 @@
 .CardContentContainer {
 	display: flex;
 	flex-direction: column;
-	padding: 0 1%;
+	margin: 0 13px 5px 60px;
+	padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-sizing: border-box;
+	border: 0.5px solid lightgray;
 }
 
 .CardContentContainer h3 {
-	font-size: 1.6rem;
-	padding: 1% 0;
+	font-size: 0.9rem;
+	padding: 0;
 	margin: 0;
 }
 
 .CardContentContent {
-	font-size: 1.4rem;
-	padding: 0 0 1.5% 0;
+	font-size: 0.9rem;
+	padding: 10px 0 0 0;
 	line-height: 1.3;
 }
 
 .CardContentLink {
-	font-size: 1.4rem;
-	padding: 0 0 1.5% 0;
-	line-height: 1.3;
+	font-size: 0.9rem;
+	padding: 10px 0;
 	color: gray;
 }
