@@ -1,0 +1,19 @@
+body,
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+.environmentContainer {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculatorContainer {
+	width: 400px;
+	height: 620px;
+	border: 1.5px solid gray;
+}
