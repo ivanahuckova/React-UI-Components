@@ -2,6 +2,7 @@ button {
 	background: white;
 	border: 1px solid grey;
 	color: black;
+	padding: 8%;
 }
 
 .mainButtonContainer {
@@ -13,14 +14,17 @@ button {
 .numberButton {
 	width: 25%;
 	font-weight: bold;
+	font-size: 3rem;
 }
-.operationsNumber {
+.operationsButton {
 	color: white;
 	background-color: darkred;
 	border: 1px solid gray;
 	width: 25%;
+	font-size: 3rem;
 }
 
 .actionButton {
 	width: 75%;
+	font-size: 3rem;
 }
