@@ -9,8 +9,8 @@ const App = () => {
 			<div className="calculatorContainer">
 				<CalculatorDisplay />
 				<div className="calculatorButtonContainer">
-					<ActionButton />
 					<NumberButton />
+					<ActionButton />
 				</div>
 			</div>
 		</div>
