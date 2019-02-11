@@ -1,0 +1,26 @@
+button {
+	background: white;
+	border: 1px solid grey;
+	color: black;
+}
+
+.mainButtonContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.numberButton {
+	width: 25%;
+	font-weight: bold;
+}
+.operationsNumber {
+	color: white;
+	background-color: darkred;
+	border: 1px solid gray;
+	width: 25%;
+}
+
+.actionButton {
+	width: 75%;
+}
