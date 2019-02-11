@@ -4,10 +4,16 @@ import "./Header.css";
 export default function HeaderTitle() {
 	return (
 		<div className="headerTitleContainer">
-			<div className="headerTitle">Lambda School</div>
-			<div className="headerUsername">@LambdaSchool</div>
+			<div className="headerTitle">
+				<h4>Lambda School</h4>
+			</div>
+			<div className="headerUsername">
+				<h5>@LambdaSchool</h5>
+			</div>
 			<ul className="headerDateUl">
-				<li className="headerDateLi">26 jan</li>
+				<li className="headerDateLi">
+					<div>26 jan</div>
+				</li>
 			</ul>
 		</div>
 	);

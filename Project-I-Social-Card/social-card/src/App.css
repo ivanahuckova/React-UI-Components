@@ -2,8 +2,18 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+.environmentContainer {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .appContainer {
 	display: flex;
 	max-width: 600px;
 	flex-direction: column;
+	border: 1px solid black;
+	box-sizing: border-box;
 }

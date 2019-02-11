@@ -8,7 +8,7 @@ export default function HeaderContainer() {
 	return (
 		<div className="headerMainContainer">
 			<ImageThumbnail />
-			<div className="rightHeaderContainer">
+			<div className="headerContentHeadingContainer">
 				<HeaderTitle />
 				<HeaderContent />
 			</div>
