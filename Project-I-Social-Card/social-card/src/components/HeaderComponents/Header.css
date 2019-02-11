@@ -1,1 +1,70 @@
 /* All styles for your header Components live here */
+html,
+body {
+	font-size: 62.5%;
+}
+
+.headerMainContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border: 1px solid black;
+	font-size: 1.5rem;
+	max-width: 700px;
+}
+
+/* Image Thumbnail = LEFT CONTAINER*/
+.imageThumbnailContainer {
+	width: 100px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	box-sizing: border-box;
+}
+
+.imageThumbnail {
+	width: 80%;
+	padding-top: 10%;
+}
+
+/* Heading + Content = RIGHT CONTAINER*/
+.rightHeaderContainer {
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+/* Heading */
+.headerTitleContainer {
+	display: flex;
+	align-items: center;
+	width: 95%;
+}
+
+.headerTitle {
+	font-size: 1.5rem;
+	padding-right: 1.5%;
+}
+.headerUsername {
+	color: gray;
+	font-size: 1.2rem;
+}
+.headerDateUl {
+	color: gray;
+	font-size: 0.8rem;
+	margin-block-start: 0.2rem;
+	padding-inline-start: 6%;
+	margin-block-start: 1em;
+}
+.headerDateLi {
+	font-size: 1.2rem;
+}
+
+/* Content */
+.headerContentContainer {
+	display: flex;
+	padding: 1% 0%;
+}
