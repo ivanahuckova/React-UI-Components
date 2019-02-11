@@ -5,9 +5,11 @@ import CardContent from "./CardContent";
 
 export default function CardContainer() {
 	return (
-		<div className="CardContainer">
-			<CardBanner />
-			<CardContent />
+		<div className="mainCardContainer">
+			<div className="cardContainer">
+				<CardBanner />
+				<CardContent />
+			</div>
 		</div>
 	);
 }
