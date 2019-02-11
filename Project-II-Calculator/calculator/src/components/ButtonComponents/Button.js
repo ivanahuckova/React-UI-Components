@@ -3,7 +3,7 @@ import "./Button.css";
 import NumberButton from "./NumberButton";
 import ActionButton from "./ActionButton";
 
-const Button = () => {
+function Button() {
 	return (
 		<div className="mainButtonContainer">
 			<ActionButton value="clear" />
@@ -24,6 +24,6 @@ const Button = () => {
 			<NumberButton buttonStyle="operationsButton" text="=" />
 		</div>
 	);
-};
+}
 
 export default Button;

@@ -1,8 +1,10 @@
 .displayResult {
 	width: 100%;
-	font-size: 5rem;
+	font-size: 7rem;
 	text-align: right;
 	color: white;
 	background-color: black;
 	font-weight: 300;
+	box-sizing: border-box;
+	padding: 2% 5%;
 }
