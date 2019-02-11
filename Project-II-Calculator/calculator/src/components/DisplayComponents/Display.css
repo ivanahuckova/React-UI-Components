@@ -4,6 +4,7 @@
 	background-color: black;
 	text-align: right;
 	border-bottom: 1.5px solid gray;
+	box-sizing: border-box;
 }
 
 .displayResult {
@@ -11,4 +12,5 @@
 	color: white;
 	padding: 15px 15px 0 15px;
 	font-weight: 300;
+	box-sizing: border-box;
 }

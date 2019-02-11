@@ -8,8 +8,10 @@ const App = () => {
 		<div className="environmentContainer">
 			<div className="calculatorContainer">
 				<CalculatorDisplay />
-				<ActionButton />
-				<NumberButton />
+				<div className="calculatorButtonContainer">
+					<ActionButton />
+					<NumberButton />
+				</div>
 			</div>
 		</div>
 	);

@@ -1,7 +1,6 @@
 body,
 html {
 	font-size: 62.5%;
-	box-sizing: border-box;
 }
 
 .environmentContainer {
@@ -10,10 +9,17 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-sizing: border-box;
 }
 
 .calculatorContainer {
 	width: 400px;
-	height: 620px;
+	height: 621.5px;
 	border: 1.5px solid gray;
+	box-sizing: border-box;
+}
+
+.calculatorButtonContainer {
+	box-sizing: border-box;
+	display: flex;
 }
