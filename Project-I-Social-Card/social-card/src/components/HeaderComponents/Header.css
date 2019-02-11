@@ -1,16 +1,15 @@
-/* All styles for your header Components live here */
-
 .headerMainContainer {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
+	border: 1px solid green;
 }
 
 /* LEFT CONTAINER = logo container */
 .imageThumbnailContainer {
 	width: 60px;
-	margin: 10px;
+	margin-top: 15px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,17 +18,19 @@
 }
 
 .imageThumbnail {
+	box-sizing: border-box;
 	width: 100%;
+	padding: 0 5px;
 }
 
 /* RIGHT CONTAINER = heading + content*/
-
 .headerContentHeadingContainer {
 	margin-top: 15px;
 	display: flex;
 	flex-direction: column;
 	width: 540px;
 	box-sizing: border-box;
+	border: 1px solid blue;
 }
 
 .headerTitleContainer {
@@ -66,5 +67,10 @@
 /* Content */
 .headerContentContainer {
 	display: flex;
-	padding: 1% 0%;
+	padding: 15px 15px 15px 0;
+}
+
+.headerContent {
+	font-size: 0.9rem;
+	line-height: 1.3;
 }
