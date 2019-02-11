@@ -6,10 +6,7 @@ const App = () => {
 	return (
 		<div className="environmentContainer">
 			<div className="calculatorContainer">
-				<CalculatorDisplay />
-				<div className="calculatorButtonContainer">
-					<NumberButton />
-				</div>
+				<CalculatorDisplay value={0} />
 			</div>
 		</div>
 	);

@@ -1,0 +1,8 @@
+.displayResult {
+	width: 100%;
+	font-size: 5rem;
+	text-align: right;
+	color: white;
+	background-color: black;
+	font-weight: 300;
+}
