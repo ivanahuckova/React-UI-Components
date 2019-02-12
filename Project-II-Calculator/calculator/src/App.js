@@ -3,15 +3,13 @@ import "./App.css";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import Button from "./components/ButtonComponents/Button";
 
-const App = () => {
+export default function App({ total }) {
 	return (
 		<div className="environmentContainer">
 			<div className="calculatorContainer">
-				<CalculatorDisplay value={0} />
+				<CalculatorDisplay value={total} />
 				<Button />
 			</div>
 		</div>
 	);
-};
-
-export default App;
+}
