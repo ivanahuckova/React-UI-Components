@@ -3,7 +3,7 @@ import "./Button.css";
 import NumberButton from "./NumberButton";
 import ActionButton from "./ActionButton";
 
-function Button() {
+export default function Button() {
 	return (
 		<div className="mainButtonContainer">
 			<ActionButton value="clear" />
@@ -25,5 +25,3 @@ function Button() {
 		</div>
 	);
 }
-
-export default Button;

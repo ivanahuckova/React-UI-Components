@@ -15,4 +15,5 @@
 	max-width: 600px;
 	flex-direction: column;
 	box-sizing: border-box;
+	box-shadow: -1px 0px 50px -2px #878787;
 }
