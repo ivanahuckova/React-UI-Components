@@ -1,1 +1,73 @@
-/* All styles for your header Components live here */
+.headerMainContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+/* LEFT CONTAINER = logo container */
+.imageThumbnailContainer {
+	width: 60px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.imageThumbnail {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 5px;
+}
+
+/* RIGHT CONTAINER = heading + content*/
+.headerContentHeadingContainer {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	box-sizing: border-box;
+}
+
+.headerTitleContainer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.headerTitle h4 {
+	font-size: 1.2rem;
+	margin: 0;
+}
+.headerUsername {
+	padding-left: 10px;
+}
+
+.headerUsername h5 {
+	font-size: 0.9rem;
+	margin: 0;
+	font-weight: 400;
+	color: gray;
+}
+.headerDateUl {
+	padding-left: 30px;
+	margin: 0;
+}
+.headerDateLi {
+	color: gray;
+	font-size: 0.9rem;
+}
+
+/* Content */
+.headerContentContainer {
+	display: flex;
+	padding: 10px 15px 15px 0;
+}
+
+.headerContent {
+	font-size: 0.9rem;
+	line-height: 1.3;
+}

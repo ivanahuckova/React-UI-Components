@@ -1,0 +1,19 @@
+.footerContainer {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 15px 0 60px;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.footerIcons {
+    color: gray;
+    font-weight: 200;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.numberOfActions {
+    padding-left: 10px;
+}
